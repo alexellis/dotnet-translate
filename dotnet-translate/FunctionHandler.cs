@@ -7,7 +7,7 @@ namespace Function
 {
     public class FunctionHandler
     {
-        const string accessKey = "***";
+        const string accessKey = "***"; // populate from environment?
         const string uriBase = "https://api.microsofttranslator.com/V1/Http.svc/Translate";
         public void Handle(string input) {
             Console.OutputEncoding = System.Text.Encoding.UTF8;
